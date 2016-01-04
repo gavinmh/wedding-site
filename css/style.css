@@ -801,6 +801,21 @@
 		color: #fff;	
 	}
 
+	#map
+	{
+		position: relative;
+		margin: 0;
+		text-align: center;
+		background: #fff;
+	}
+
+	#map-img
+	{
+		height: 24em;
+		width: auto;
+		margin: 2em;
+	}
+
 	#accomodations hr
 	{
 		margin: 1em 2em 1em 2em;
