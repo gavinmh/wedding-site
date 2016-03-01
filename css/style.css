@@ -768,7 +768,7 @@
 	}
 
 	#rsvp-form {
-		width: 600px;
+		width: 100%;
 		margin: 40px auto 0 auto;
  	}
 
@@ -851,9 +851,9 @@
 
 	#map-img
 	{
-		height: 24em;
-		width: auto;
-		margin: 2em;
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	#accomodations hr

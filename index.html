@@ -36,7 +36,6 @@
 				<div class="row schedule">
 					<div class="4u 12u(narrow)">
 						<h3>Friday</h3>
-						<hr />
 						<p>
 							June 10, 2016, 9:00 PM<br /> 
 							Cocktails<br /><br />
@@ -46,7 +45,6 @@
 					</div>
 					<div class="4u 12u(narrow)">
 						<h3>Saturday</h3>
-						<hr />
 						<p>
 							June 11, 2016, 6:30 PM<br /> 
 							Ceremony<br />
@@ -59,9 +57,8 @@
 					</div>
 					<div class="4u 12u(narrow)">
 						<h3>Sunday</h3>
-						<hr />
 						<p>
-							June 12, 2016, 11 AM<br />
+							June 12, 2016, 9 AM<br />
 							Brunch<br /><br />
 							The Davidson College Carnegie Guest House<br />
 							101 Dormitory Dr, Davidson, NC 28036
@@ -211,18 +208,22 @@
 			<div class="container">
 				<h2>RSVP</h2>
 				<div class="row">
-					<div class="12u 12u(narrow)">
+					<div class="6u -3u">
 						<form action="http://formspree.io/hallieandgavin@googlegroups.com" method="POST" id="rsvp-form">
 							<input type="text" name="_gotcha" style="display:none" />
 						    <input id="name" type="text" name="name" placeholder="Your Name" />
+						    <input id="guest-name" type="text" name="guest-name" placeholder="Guest's Name" />
 						    <input type="text" name="_replyto" placeholder="Your email" />
 						    <input type="hidden" name="_next" value="index.html" />
 						    
 							<select name="rsvp-value">
 							  <option value="Enthusiastically Attend">Enthusiastically Attend</option>
 							  <option value="Regretfully Decline">Regretfully Decline</option>
-							  <option value="Regretfully Attend">Regretfully Attend</option>
-							  <option value="Enthusiastically Decline">Enthusiastically Decline</option>
+							</select>
+
+							<select name="brunch-rsvp-value">
+							  <option value="Attend Brunch">Attend Brunch</option>
+							  <option value="Decline Brunch">Decline Brunch</option>
 							</select>
 
 						    <input type="submit" value="Send">
