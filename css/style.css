@@ -745,6 +745,46 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
+	#rsvp
+	{
+		position: relative;
+		margin: 0;
+		background: #0a062a;
+		padding: 4em 0 8em 0;
+		text-align: center;
+		color: #fff;	
+	}
+
+	#rsvp h2 
+	{
+		color: #fff;
+		font-family: 'Playfair Display', serif;	
+	}
+
+	#rsvp h3 
+	{
+		font-family: 'Julius Sans One', Helvetica, sans-serif;
+		color: #fff;
+	}
+
+	#rsvp-form {
+		width: 600px;
+		margin: 40px auto 0 auto;
+ 	}
+
+	#rsvp-form input {
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 12px;
+		font-size: 16px;
+	}
+
+	#rsvp-form select {
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+
+
 	#registry
 	{
 		position: relative;
