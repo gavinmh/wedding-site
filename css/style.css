@@ -878,7 +878,7 @@
 		position: relative;
 		margin: 0;
 		background: url('../images/0056.jpg');
-		background-size: cover;
+		background-size: contain;
 		background-position: center center;
 		padding: 4em 0 12em 0;
 		text-align: center;
