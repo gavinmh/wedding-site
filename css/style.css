@@ -784,27 +784,37 @@
 		font-size: 16px;
 	}
 
+	.reg-link {
+		border-bottom: none;
+	}
+
+	.link-thumb {
+		width: 233px;
+		height: auto;
+	}
+
 
 	#registry
 	{
 		position: relative;
 		margin: 0;
-		background: #0a062a;
+		background: #fff;
 		padding: 4em 0 8em 0;
 		text-align: center;
-		color: #fff;	
+		color: #333;
+		font: 16px 'Crimson Text', serif	
 	}
 
 	#registry h2 
 	{
-		color: #fff;
+		color: #111;
 		font-family: 'Playfair Display', serif;	
 	}
 
 	#registry h3 
 	{
 		font-family: 'Julius Sans One', Helvetica, sans-serif;
-		color: #fff;
+		color: #111;
 	}
 
 	#invitation
